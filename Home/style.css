@@ -82,7 +82,7 @@ li a:hover{
     flex-flow: column;
     flex-grow: 1;
 }
-.header {
+.main-item {
     background-color: #fff;
     margin-bottom: 2vh;
     border-radius: 15px;
@@ -109,4 +109,41 @@ li a:hover{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+.attendance {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.courses {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    color: #545252;
+}
+.view-more {
+    position: absolute;
+    right: 0;
+    align-self: center;
+}
+.view-more:hover {
+    text-decoration-line: underline;
+}
+.courses .status {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+}
+.status a {
+    margin-right: 20px;
+}
+.active-bar, .bar:hover {
+    font-weight: 600;
+    text-decoration-line: underline;
 }
