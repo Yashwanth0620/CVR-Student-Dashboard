@@ -114,6 +114,7 @@ li a:hover{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .courses {
     flex-grow: 1;
@@ -146,4 +147,48 @@ li a:hover{
 .active-bar, .bar:hover {
     font-weight: 600;
     text-decoration-line: underline;
+}
+/* for the courses tab */
+.topic-frames {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+}
+.plate {
+    margin: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    flex-grow: 1;
+    border-radius: 5px;
+    flex-basis: 1px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.plate .title {
+    font-weight: 600;
+    text-align: center;
+}
+.frame-1 {
+    background-color: lightpink;
+}
+.frame-2 {
+    background-color: lightcoral;
+}
+.frame-3 {
+    background-color: lightsalmon;
+}
+.frame-4 {
+    background-color: rgb(120, 249, 219);
+}
+.plate:hover {
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.plate img {
+    height: 150px;
+    width: 150px;
 }
